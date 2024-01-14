@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhitiedutech.bcanotes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BCANotes">
+        <activity
+            android:name=".WebScrapingNotes.NotesDescription"
+            android:exported="false" />
+        <activity
+            android:name=".WebScrapingNotes.NotesByWebScraping"
+            android:exported="false" />
+        <activity
+            android:name=".Signin"
+            android:exported="false" />
+        <activity
+            android:name=".ChapterList"
+            android:exported="false" />
+        <activity
+            android:name=".SubjectList"
+            android:exported="false"
+            android:label="Subject List" />
+        <activity
+            android:name=".Setting"
+            android:exported="false"
+            android:label="Setting" />
+        <activity
+            android:name=".Notes"
+            android:exported="false"
+            android:label="Notes" />
+        <activity
+            android:name=".PaperList"
+            android:exported="false"
+            android:label="Paper list" />
+        <activity
+            android:name=".SelectSem"
+            android:exported="false"
+            android:label="Select semester" />
+        <activity
+            android:name=".BCA"
+            android:exported="false"
+            android:label="BCA" />
+        <activity
+            android:name=".Login_signup"
+            android:exported="false"
+            android:label="SignUp" />
+        <activity
+            android:name=".introscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DocumentViewer"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="Dashboard" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1011652399983536~8774163978" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

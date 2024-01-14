@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dhitiedutech.bcanotes.BCA">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Resources"
+        android:textColor="@color/maroon"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/btnSyllabus"-->
+<!--        android:layout_width="112dp"-->
+<!--        android:layout_height="94dp"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/btnPaper"-->
+<!--        app:layout_constraintHorizontal_bias="0.446"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline2"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView4"-->
+<!--        app:srcCompat="@drawable/syllabus" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvSyllabus"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/syllabus"-->
+<!--        android:textColor="@color/maroon"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/btnSyllabus"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/btnSyllabus"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnSyllabus" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/btnNotes"-->
+<!--        android:layout_width="112dp"-->
+<!--        android:layout_height="94dp"-->
+<!--        android:layout_marginTop="48dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/btnSyllabus"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/btnSyllabus"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvSyllabus"-->
+<!--        app:srcCompat="@drawable/notes" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvNotes"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/notes"-->
+<!--        android:textColor="@color/maroon"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/btnNotes"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/btnNotes"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnNotes" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/btnPaper"-->
+<!--        android:layout_width="112dp"-->
+<!--        android:layout_height="94dp"-->
+<!--        android:layout_marginEnd="44dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/tvSyllabus"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline7"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/btnSyllabus"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        app:srcCompat="@drawable/paper_" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvPaper"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/paper"-->
+<!--        android:textColor="@color/maroon"-->
+<!--        android:textSize="20sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/btnPaper"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/btnPaper"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnPaper" />-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

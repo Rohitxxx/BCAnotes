@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BCA notes</string>
+    <string name="dashboard_study">Hi, what you want to learn today?</string>
+    <string name="course1">BCA</string>
+    <string name="Miscellaneous">Miscellaneous</string>
+    <string name="news">News</string>
+    <string name="already"><u>Already have an account</u></string>
+    <string name="create"><u>Dont have account, create one</u></string>
+    <string name="home_signup_details">Signup to access your personalized curriculum</string>
+    <string name="home_login_details">Login to access your personalized curriculum</string>
+    <string name="tnc">By signing up you agree to our Terms and Privacy Policy</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="paper">Paper</string>
+    <string name="notes">Hand Written Notes</string>
+    <string name="txtCredits">This application is developed and maintained by <b>Dhiti EduTech</b> .\n
+        All of the logos (including all badges ,png ,images etc.) are the properties of their respective owners. \n \n
+        <b>Rohit Maurya</b> : Designer and Developer \n \n
+        <b>Data gathering Team</b> \n
+        Akash Maurya \n
+        Ankit Mishra \n
+        and others.
+    </string>
+    <string name="contact">Contact us: <b>dhritiedutech@gmail.com</b></string>
+    <string name="appid">ca-app-pub-4387112006899069~1330968437</string>
+    <string name="bannerAdMain">ca-app-pub-4387112006899069/8236762916</string>
+    <string name="bannerAdDocumentViewer">ca-app-pub-4387112006899069/6412561267</string>
+    <string name="pirvacy_policy"><u>Pirvacy Policy</u></string>
+    <string name="university_notes">University Notes</string>
+</resources>
